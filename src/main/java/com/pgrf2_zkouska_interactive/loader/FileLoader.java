@@ -4,6 +4,9 @@ import com.pgrf2_zkouska_interactive.models.Question;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,8 +16,10 @@ public class FileLoader {
 
     public void loadQuestions() {
         try {
-            FileReader reader = new FileReader("https://github.com/MartmatiX/PGRF2_Zkouska_Interactive/blob/31950f05a2eaf943b603186358bee4c8784087ad/src/main/resources/static/questions.txt");
-            BufferedReader br = new BufferedReader(reader);
+            InputStream inputStream = getClass().getResourceAsStream("/static/questions.txt");
+            assert inputStream != null;
+            BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+
             while (br.readLine() != null) {
                 String line = br.readLine();
                 String[] split = line.split(":");
@@ -26,7 +31,6 @@ public class FileLoader {
                 }
             }
             br.close();
-            reader.close();
         }
         catch (Exception e) {
             e.printStackTrace();
