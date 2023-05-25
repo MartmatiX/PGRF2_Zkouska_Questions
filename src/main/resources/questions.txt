@@ -1,0 +1,92 @@
+A. Vizualizační řetězec: 1. Vizualizační řetězec: a)Homogenní souřadnice, použití, výhody, ořezávání
+A. Vizualizační řetězec: 1. Vizualizační řetězec: b)Modelovací transformace, zápis transformací, matice
+A. Vizualizační řetězec: 1. Vizualizační řetězec: c) Pohledová transformace, definice soustavy souřadnic
+A. Vizualizační řetězec: 1. Vizualizační řetězec: d)Transformace zobrazovacího objemu, definice, příklady
+A. Vizualizační řetězec: 1. Vizualizační řetězec: e)Transformace do okna,
+A. Vizualizační řetězec: 1. Vizualizační řetězec: f) Algoritmus Z-buffer, implementace
+A. Vizualizační řetězec: 1. Vizualizační řetězec: g)Mapování textury, souřadnice do textury, interpolace
+A. Vizualizační řetězec: 1. Vizualizační řetězec: h)Ořezání zobrazovacím objemem
+A. Vizualizační řetězec: 1. Vizualizační řetězec: i) Jak se provádí výpočet v homogenních souřadnicích.
+A. Vizualizační řetězec: 2. Vysvětlete princip rasterizace trojúhelníka: a)Interpolace v ploše trojúhelníka
+A. Vizualizační řetězec: 2. Vysvětlete princip rasterizace trojúhelníka: b)Interpolace na hranách
+A. Vizualizační řetězec: 3. Co je to interpolace, jak se využívá v zobrazovacím řetězci: a)Interpolace souřadnic x, y, z
+A. Vizualizační řetězec: 3. Co je to interpolace, jak se využívá v zobrazovacím řetězci: b)Interpolace atributů ve vrcholech
+A. Vizualizační řetězec: 3. Co je to interpolace, jak se využívá v zobrazovacím řetězci: c) Princip perspektivně korektní interpolace
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: a)Úlohy vizualizace
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: b)Double bufering
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: c) Reprezentace scény
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: d)Display list
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: e)Backface calling
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: f) Frustum calling
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: g)Ohraničující objemy
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: h)Úroveň detailu
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: i) Occlusion calling
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: j) Deferred shading
+A. Vizualizační řetězec: 4. Metody optimalizace vizualizace: k)Rozdělení scény
+B. OpenGL: 5. Knihovna OpenGL: a)základní principy
+B. OpenGL: 5. Knihovna OpenGL: b)grafické elementy, atributy
+B. OpenGL: 6. Knihovna OpenGL: poskytované funkce pro zobrazení scény, řetězec zpracování - a)Modelování scény
+B. OpenGL: 6. Knihovna OpenGL: poskytované funkce pro zobrazení scény, řetězec zpracování - b)Řešení viditelnosti
+B. OpenGL: 6. Knihovna OpenGL: poskytované funkce pro zobrazení scény, řetězec zpracování - c)Osvětlení scény
+B. OpenGL: 7. Knihovna OpenGL: transformace - a)Způsob skládání transformací, násobení matic
+B. OpenGL: 7. Knihovna OpenGL: transformace - b)Modelovací matice
+B. OpenGL: 7. Knihovna OpenGL: transformace - c) Pohledová matice
+B. OpenGL: 7. Knihovna OpenGL: transformace - d)Projekční matice
+B. OpenGL: 7. Knihovna OpenGL: transformace - e)Zásobník transformací, použití
+B. OpenGL: 7. Knihovna OpenGL: transformace - f) Transformace do okna
+B. OpenGL: 8. Knihovna OpenGL: a)model osvětlení, typy zdrojů světla, vlastnosti
+B. OpenGL: 8. Knihovna OpenGL: b)model osvětlení, materiály
+B. OpenGL: 8. Knihovna OpenGL: c)stínování a mlha
+B. OpenGL: 8. Knihovna OpenGL: d)textury, mapování a způsoby aplikace
+B. OpenGL: 8. Knihovna OpenGL: e)míchání barev
+C. Zpracování obrazu a počítačové vidění: 9. Komprese rastrového obrazu principy, parametry, použití: a)Ztrátová komprese
+C. Zpracování obrazu a počítačové vidění: 9. Komprese rastrového obrazu principy, parametry, použití: b)Bezeztrátová komprese
+C. Zpracování obrazu a počítačové vidění: 10. Komprese grafických dat - metody: a)LZW
+C. Zpracování obrazu a počítačové vidění: 10. Komprese grafických dat - metody: b)RLE
+C. Zpracování obrazu a počítačové vidění: 10. Komprese grafických dat - metody: c)Huffmanovo kódování
+C. Zpracování obrazu a počítačové vidění: 11. Grafické formáty, použití, způsob komprese - GIF, TIFF, PCX, JPEG atd: a) GIF
+C. Zpracování obrazu a počítačové vidění: 11. Grafické formáty, použití, způsob komprese - GIF, TIFF, PCX, JPEG atd: b) TIFF
+C. Zpracování obrazu a počítačové vidění: 11. Grafické formáty, použití, způsob komprese - GIF, TIFF, PCX, JPEG atd: c) PCX
+C. Zpracování obrazu a počítačové vidění: 11. Grafické formáty, použití, způsob komprese - GIF, TIFF, PCX, JPEG atd: d) JPEG
+C. Zpracování obrazu a počítačové vidění: 11. Grafické formáty, použití, způsob komprese - GIF, TIFF, PCX, JPEG atd: e) PNG
+C. Zpracování obrazu a počítačové vidění: 11. Grafické formáty, použití, způsob komprese - GIF, TIFF, PCX, JPEG atd: f) ostatní
+C. Zpracování obrazu a počítačové vidění: 12. Počítačové vidění a rozpoznávání, řetězec zpracování a rozpoznávání obrazu, aplikace: 
+C. Zpracování obrazu a počítačové vidění: 12. Počítačové vidění a rozpoznávání, řetězec zpracování a rozpoznávání obrazu, aplikace: a) počítačové vidění
+C. Zpracování obrazu a počítačové vidění: 12. Počítačové vidění a rozpoznávání, řetězec zpracování a rozpoznávání obrazu, aplikace: b) řetězec zpracování
+C. Zpracování obrazu a počítačové vidění: 12. Počítačové vidění a rozpoznávání, řetězec zpracování a rozpoznávání obrazu, aplikace: c) aplikace
+C. Zpracování obrazu a počítačové vidění: 13. Snímání obrazu: a)Požadavky na snímání, digitalizace a reprezentace obrazu
+C. Zpracování obrazu a počítačové vidění: 13. Snímání obrazu: b)Vzorkování
+C. Zpracování obrazu a počítačové vidění: 13. Snímání obrazu: c) Kvantování
+C. Zpracování obrazu a počítačové vidění: 13. Snímání obrazu: d)Snímání prostorové informace
+C. Zpracování obrazu a počítačové vidění: 14. Předzpracování obrazu: a)Operace s obrazem
+C. Zpracování obrazu a počítačové vidění: 14. Předzpracování obrazu: b)Geometrické transformace obrazu
+C. Zpracování obrazu a počítačové vidění: 14. Předzpracování obrazu: c) Interpolace obrazu
+C. Zpracování obrazu a počítačové vidění: 14. Předzpracování obrazu: d)Úprava jasové funkce
+C. Zpracování obrazu a počítačové vidění: 14. Předzpracování obrazu: e)Histogram a vyrovnání histogramu
+C. Zpracování obrazu a počítačové vidění: 15. Filtrace obrazu: a)Konvoluční filtry – aplikace, příklady
+C. Zpracování obrazu a počítačové vidění: 15. Filtrace obrazu: b)Gradientní operátory – použití, příklady
+C. Zpracování obrazu a počítačové vidění: 15. Filtrace obrazu: c) Frekvenční filtry
+C. Zpracování obrazu a počítačové vidění: 16. Segmentace obrazu: a)Prahování, metody určení prahu
+C. Zpracování obrazu a počítačové vidění: 16. Segmentace obrazu: b)Segmentace na základě detekce hran, Houghova transformace
+C. Zpracování obrazu a počítačové vidění: 16. Segmentace obrazu: c) Segmentace na základě detekce oblastí, narůstání a štěpení oblastí, srovnávání se vzorem.
+C. Zpracování obrazu a počítačové vidění: 16. Segmentace obrazu: d)Matematická morfologie – operace, použití
+C. Zpracování obrazu a počítačové vidění: 17. Popis objektů a porozumění obrazu, klasifikace, kvantitativní charakteristiky, obarvení obrazu:a) popis objektů a porozumění obrazu
+C. Zpracování obrazu a počítačové vidění: 17. Popis objektů a porozumění obrazu, klasifikace, kvantitativní charakteristiky, obarvení obrazu:b) klasifikace
+C. Zpracování obrazu a počítačové vidění: 17. Popis objektů a porozumění obrazu, klasifikace, kvantitativní charakteristiky, obarvení obrazu:c) kvantitativní charakteristiky
+C. Zpracování obrazu a počítačové vidění: 17. Popis objektů a porozumění obrazu, klasifikace, kvantitativní charakteristiky, obarvení obrazu:d) obarvení obrazu
+D. Doplňkové: 1. Metody znázornění 3D prostoru: není podotázka
+D. Doplňkové: 2. Jak popisujeme transformace v 2D: není podotázka
+D. Doplňkové: 3. Jaké základní lineární transformace v 2D používáme, jak jsou definovány: není podotázka
+D. Doplňkové: 4. Jak popisujeme transformace v 3D: není podotázka
+D. Doplňkové: 5. Jaké základní lineární transformace v 3D používáme, jak jsou definovány: není podotázka
+D. Doplňkové: 6. Jak funguje skládání transformací: není podotázka
+D. Doplňkové: 7. Kumulativní histogram: není podotázka
+D. Doplňkové: 8. Houghova transformace: není podotázka
+D. Doplňkové: 9. Co je to alias, kdy vzniká: není podotázka
+D. Doplňkové: 10. Mediánový filtr – použití: není podotázka
+D. Doplňkové: 11. Výpočet osvětlení ve scéně: a) Vysvětlete pojem konstantní stínování.
+D. Doplňkové: 11. Výpočet osvětlení ve scéně: b) Vysvětlete pojem interpolace barvy.
+D. Doplňkové: 11. Výpočet osvětlení ve scéně: c) Vysvětlete pojem interpolace normály.
+D. Doplňkové: 11. Výpočet osvětlení ve scéně: d) Phongův osvětlovací model – ambientní složka.
+D. Doplňkové: 11. Výpočet osvětlení ve scéně: e) Phongův osvětlovací model – difúzní složka.
+D. Doplňkové: 11. Výpočet osvětlení ve scéně: f) Phongův osvětlovací model – zrcadlová složka.
