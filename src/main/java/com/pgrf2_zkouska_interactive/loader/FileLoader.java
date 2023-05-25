@@ -13,7 +13,7 @@ public class FileLoader {
 
     public void loadQuestions() {
         try {
-            FileReader reader = new FileReader("src/main/resources/questions.txt");
+            FileReader reader = new FileReader("https://github.com/MartmatiX/PGRF2_Zkouska_Interactive/blob/31950f05a2eaf943b603186358bee4c8784087ad/src/main/resources/static/questions.txt");
             BufferedReader br = new BufferedReader(reader);
             while (br.readLine() != null) {
                 String line = br.readLine();
