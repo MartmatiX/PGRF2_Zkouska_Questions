@@ -21,9 +21,14 @@
         <input class="btn btn-success" type="submit" value="Další">
     </form>
 
-    <di class="pt-5">
+    <div class="pt-5 d-flex flex-row">
+        <h1 class="display-5" th:text="${finished} + '/'"></h1>
+        <h1 class="display-5" th:text="${total}"></h1>
+    </div>
+
+    <div class="pt-5">
         <object th:data="${pdfModel.pdfPath}" type="application/pdf" width="1200" height="800"></object>      
-    </di>
+    </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
